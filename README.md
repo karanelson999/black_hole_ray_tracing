@@ -26,6 +26,8 @@ Analysis and visualization of the dynamics of near-critical photon trajectories,
 
 The notebooks currently contain local file paths corresponding to the directory structure used during development. Users running the code on another machine will need to update the data and output directory paths near the beginning of the relevant notebooks to match their local directory structure.
 
+The notebooks are intended to be configured for different numerical runs by changing parameters such as the spacetime metric, spin, observer inclination, image-plane sampling method, and sampling values. Relevant parameters and options are identified explicitly within the notebooks, with comments indicating where settings should be changed. Some filenames, parameter choices, and analysis settings therefore reflect the particular datasets or tests used during development and should be adjusted as needed for different runs.
+
 ## Current Status
 
 The Kerr implementation and associated dynamical plots are the primary validated components of the current code.
